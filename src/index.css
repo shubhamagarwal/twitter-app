@@ -1,0 +1,75 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.twitter-app {
+  max-width: 1280px;
+  margin: auto;
+  position: relative;
+}
+
+.row {
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.main-nav {
+  float: right;
+  list-style: none;
+}
+
+.main-nav li {
+  display: inline-block;
+  margin-left: 40px;
+}
+
+header {
+  background-color: #0a0631;
+  height: 100px;
+}
+
+.main-nav li a:link,
+.main-nav li a:visited {
+    padding: 8px 0;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 90%;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.2s;
+}
+
+.main-nav li a:hover,
+.main-nav li a:active {
+    border-bottom: 2px solid #e6e2df;
+}
+.assembly-logo {
+  margin-top: 20px;
+}
+
+.search-options {
+  display: flex;
+  flex-direction: row;
+  float: right;
+}
+
+.search-options {
+  margin-top: 85px;
+}
+
+.alert-msg, .error-msg, .no-tweets {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-dropdown {
+    display: flex;
+    justify-content: space-between;
+}
