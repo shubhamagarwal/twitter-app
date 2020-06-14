@@ -23,9 +23,6 @@ const db = admin.firestore();
 
 
 router.get("/login/success", (req, res) => {
-  console.log(req.user);
-  //console.log(req.headers)
-  console.log('req------------------------');
   if (req.user) {
     const screenName = req.user.screenName;
     let docRef = db.collection('Users').doc(`${screenName}`);
