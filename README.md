@@ -52,3 +52,18 @@ open keys.js file and make changes
 ![Application Preview cd](https://github.com/shubhamagarwal/twitter-app/blob/master/screenshot/landing.JPG 'Application Preview')
 
 ![Application Preview cd](https://github.com/shubhamagarwal/twitter-app/blob/master/screenshot/listing.JPG 'Application Preview')
+
+
+## Add Callback URL in Twitter
+
+```
+add CLIENT_HOME_PAGE_URL in authRoutes.js
+```
+
+![client URL Preview cd](https://github.com/shubhamagarwal/twitter-app/blob/master/screenshot/client.JPG 'CLIENT_HOME_PAGE_URL Preview')
+
+```
+add Twitter Callback URL while creating your app
+```
+
+![Application Preview cd](https://github.com/shubhamagarwal/twitter-app/blob/master/screenshot/twitter_callback.JPG 'Twitter Callback Preview')
