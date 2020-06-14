@@ -52,7 +52,7 @@ const TwitterApp = () => {
         .then(responseJson => {
           setUserDetails(responseJson.user);
           setAuthentication(true);
-          setTweets(responseJson.data);
+          setTweets(responseJson.data || []);
         })
       .catch(error => {
         setAuthentication(false);
@@ -62,7 +62,7 @@ const TwitterApp = () => {
     fetchData();
   }, []);
 
-  console.log(searchValue)
+  
   return(
     <div className="twitter-app">
       <Header
