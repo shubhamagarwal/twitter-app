@@ -33,7 +33,16 @@ open http://localhost:4000 to view project on the browser
 
 ## Setup Twitter and Firebase keys
 
+
+```
+open serviceAccountKey.js file and make changes
+```
+
 ![Firebase cd](https://github.com/shubhamagarwal/twitter-app/blob/master/screenshot/firebase.JPG 'Add Firebase keys here')
+
+```
+open keys.js file and make changes
+```
 
 ![Twitter cd](https://github.com/shubhamagarwal/twitter-app/blob/master/screenshot/twitter.JPG 'Add Twitter keys here')
 
