@@ -57,10 +57,7 @@ header {
   display: flex;
   flex-direction: row;
   float: right;
-}
-
-.search-options {
-  margin-top: 85px;
+  margin-top: 15px;
 }
 
 .alert-msg, .error-msg, .no-tweets {
@@ -72,4 +69,8 @@ header {
 .search-dropdown {
     display: flex;
     justify-content: space-between;
+}
+
+.tweets-section {
+  margin-top: 35px;
 }
