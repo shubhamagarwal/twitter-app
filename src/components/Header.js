@@ -5,11 +5,11 @@ const Header = (props) => {
   const { handleNotAuthenticated } = props;
 
   const handleSignInClick = () => {
-    window.open("http://localhost:4000/auth/twitter", "_self");
+    window.open("/auth/twitter", "_self");
   };
 
   const handleLogoutClick = () => {
-    window.open("http://localhost:4000/auth/logout", "_self");
+    window.open("/auth/logout", "_self");
     handleNotAuthenticated();
   };
   
